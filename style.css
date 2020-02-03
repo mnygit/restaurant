@@ -1,0 +1,320 @@
+
+/*  BODY  */   
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Muli', sans-serif;    
+}
+
+p {
+    font-size: 20px;
+    text-align: justify;  
+}
+
+.sections {
+    margin-bottom: 50px;
+}
+
+#about, #menu, #gallery, #contact, #footer {
+    text-align: center;
+    height: 700px;
+    padding-top: 100px;
+}
+
+
+/*   HEADER SECTION   */
+header {
+    padding-top: 30px;
+    /*height: 20px; */
+}
+
+      ul, a {
+        float: right;
+        text-decoration: none;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        font-family: 'Fredoka One', cursive;     
+    
+    }
+    
+    li {
+        display: inline-block;
+        padding: 10px;
+        text-transform: uppercase;
+        text-decoration:none; 
+    
+    }
+    
+    
+    a {
+        text-decoration: none;
+        color:  #2c786c;    
+    }
+    
+    a:link {
+    text-decoration: none; 
+    color:  #2c786c;  
+    }
+    
+    a:visited{
+        text-decoration:none; 
+        color:  #2c786c;
+    }
+    
+    a:hover { 
+        color:  white !important;
+        
+        /*border-bottom: 10px solid #f8b400; */
+        /*padding: 10px 20px; */
+             
+    }
+    
+    a:active {
+        text-decoration:none; 
+        color:  #2c786c;
+    }
+    
+    
+    #company {
+        float: left;
+        font-family: 'Fredoka One', cursive;
+        color: #2c786c;
+        margin-right: 5px;
+        letter-spacing: 2px;
+        
+    
+    }
+    
+    #logo {
+        width: 45px;
+        height: 45px;  
+    
+    }
+    
+    nav {
+        padding-top: 20px;
+        
+    }
+    
+
+/*   HERO IMAGE SECTION   */
+.hero {
+    height: auto;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.center-hero {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    font-family: 'Fredoka One', cursive; 
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    /*padding-top: 300px; */
+    text-shadow: 3px 3px 6px  #004445;
+    letter-spacing: 3px;
+
+  }
+
+#yum {
+    font-family: 'Lemon', cursive;
+    font-size: 45px;
+}
+
+
+
+/*   ABOUT SECTION   */
+.about-image {
+    padding-top: 100px;
+    width: 100%;
+    height: auto;
+   
+}
+
+#about-section {
+    background-color: #faf5e4;  
+
+}
+
+.about-paragraph {
+    margin: 30px;
+    line-height: 1.5;
+}
+
+
+/*   GALLERY SECTION   */
+#gallery-section {
+    background-color: #2c786c; 	
+}
+
+
+/*   MENU SECTION   */
+
+.menu-images {
+    margin: 0 auto;
+}
+
+.image-popup-no-margins, .image-popup-fit-width, .image-popup-vertical-fit {
+    padding: 20px;
+}
+
+
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+	padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+	top: 0;
+	bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+	padding: 0;
+}
+
+
+/* 
+
+for zoom animation 
+uncomment this part if you haven't added this code anywhere else
+
+*/
+/*
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: all 0.3s ease-out; 
+	-moz-transition: all 0.3s ease-out; 
+	-o-transition: all 0.3s ease-out; 
+	transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+		opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+		opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing.mfp-bg {
+	opacity: 0;
+}
+*/
+
+
+
+
+
+
+
+
+/*   CONTACT SECTION   */
+#contact-section {
+    height: 1075px;
+    padding-top: 100px;
+    background-color: #f8b400;	
+  
+  
+  }
+
+#contact {
+    margin: 0 auto;
+    width: 50%;
+    height: 900px;
+    background-color: white; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    
+  
+  }
+  
+  #contact-form {
+      text-align: left;
+      font-size: 18px;
+      background-color:white;
+     
+  }
+  
+  .contact-header {
+      padding-top: 50px;
+  
+  }
+  
+  
+  hr, .contact-underline {
+      border-top: solid 2px #696969;
+      padding-bottom: 20px;
+  }
+  
+  label {
+      margin-left: 20px;
+  }
+  
+  
+  .btn, .btn-success, .btn-send {
+      background-color: #2c786c !important;
+      margin: 0 auto;
+  }
+  
+  
+
+
+/*   FOOTER SECTION   */
+#footer-section {
+    background-color: #004445;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
