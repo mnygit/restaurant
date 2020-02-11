@@ -9,9 +9,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Yummy Tummy Deli</title>
-  <link rel="shortcut icon" href="images/yumtumlogo.png" style="width:16px; height:16px;"
-    type="image/vnd.microsoft.icon">
+  <title>Callum's Delicatessan</title>
+  <link rel="shortcut icon" href="images/logo3.png" style="width:16px; height:16px;" type="image/vnd.microsoft.icon">
   <link rel="stylesheet" href="style.css" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Muli&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lemon&display=swap" rel="stylesheet">
@@ -20,16 +19,38 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
   <div class="container-fluid">
+    <!-- HEADER SECTION -->
     <div class="row">
       <div class="col-sm-12">
         <header>
+          <div class="top-header">
+            <div class="information-container">
+              <div class="store-hours">
+                <span class="hours"><img class="clock" src="images/clock.png" />&nbsp;&nbsp;We're open
+                  <em>everyday</em>&nbsp;&nbsp;from 8AM to 10PM.<br />
+                  <img class="phone" src="images/phone.png" />&nbsp;&nbsp;Need a reservation? Give us a call at
+                  312-218-9195.
+                </span>
+              </div>
+              <div class="social-top">
+                <span><a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                  <a href="https://twitter.com/" class="fa fa-twitter"></a>
+                  <a href="https://facebook.com/" class="fa fa-facebook"></a></span>
+              </div>
+            </div>
+
+          </div>
+
+
+          <!-- 
           <nav>
             <h1 id="company">Yummy Tummy Deli</h1>
-            <img id="logo" src="images/yumtumlogo.png" />
+            <img id="logo" src="images/logo3.png" />
             <ul>
               <li><a href="index.html">Home</a></li>
               <li><a href="#about">About</a></li>
@@ -38,42 +59,107 @@
               <li><a href="#contact">Contact</a></li>
             </ul>
           </nav>
+-->
+
+
+          <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
+              <a href="/" class="navbar-brand d-flex w-50 mr-auto">Callum's Delicatessan</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+                  <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Our Story</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Gallery</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Menu</a>
+                      </li>
+
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Contact</a>
+                      </li>
+
+
+                  </ul>
+              </div>
+          </nav>
+          
+
+
+
+
         </header>
       </div>
     </div>
 
+
+
+
     <!-- INTRO / BACKGROUND IMAGE -->
     <div class="row">
       <div class="col-sm-12">
-      <img class="hero" alt="restaurant"  src="images/restaurant.jpg"/>
-      <h1 class="center-hero">We specialize in all things <span id="yum">yum</span>.&nbsp;&nbsp;Guaranteed.</h1>  
+        <img class="hero" alt="restaurant" src="images/restaurant.jpg" />
+        <h1 class="center-hero">We specialize in all things <span id="yum">yum</span>.&nbsp;&nbsp;Guaranteed.</h1>
+      </div>
     </div>
-    </div>
+
+    <div class="row">
+        <div class="col-sm-12">
+          <div class="transition-one">
+          </div>
+        </div>
+      </div>
+  
+
+
+
+    
+
 
     <!-- ABOUT US -->
     <div class="row" id="about-section">
-      <div class="col-sm-6">
-        <div id="about">
-          <h2 class="sections">About Yummy Tummy Deli</h2>
-          <p class="about-paragraph">Hi I’m Mike, the proud owner of Yummy Tummy Deli! For over 50 years my family has served generations of customers in the Chicago area.</p> 
-          <p class="about-paragraph">Not only is the food amazing, but everyday we aim to put a smile on the face of our patrons.</p> 
-          <p class="about-paragraph">Loved by celebrities and people from all walks of life, Yummy Tummy Deli keeps our tradition alive by promising to always put our customers first for years to come.</p>
-          
-          
+      <div class="col-sm-12">
+        <div id="about-content">
+          <h2 class="sections underline">Our Story</h2>
+          <p class="about-paragraph"><img class="about-image" src="images/chef.jpg">Hi I’m <span
+              id="owner-name">Mike</span>, the proud owner of Callum's Delicatessan! Since 1923, my family has
+            served generations of customers in the Chicago area. In the early part of the twentieth century, our
+            neighborhood was home to millions of immigrant families. With the lack of public and private transportation,
+            Callum's Delicatessan became a community and center point for congregating. On Sundays, the neighborhood
+            frequented our deli to enjoy meals my family prepared with love. After a long week of work, we thought it
+            best to make sure our customers’ bellies were full of delicious food so that they would have enough energy
+            for the start of the work week. <br /> <br />Not only is the food amazing, but everyday we aim to put a
+            smile on the face of our
+            patrons. Loved by celebrities and people from all walks of life, Callum's Delicatessan keeps our tradition alive
+            by promising to always put our customers first for years to come.</p>
         </div>
       </div>
-      <div class="col-sm-6">
-        <img class="about-image" src="images/chef.png">
+    </div>
 
-    </div>
-    </div>
+    
+
+    <div class="row">
+        <div class="col-sm-12">
+          <div class="transition-two">
+          </div>
+        </div>
+      </div>
+  
+
 
 
     <!-- GALLERY -->
     <div class="row" id="gallery-section">
       <div class="col-sm-12">
-        <div id="gallery">
-          <h2 class="sections">Gallery</h2>
+        <div id="gallery-content">
+          <h2 class="sections underline">Gallery</h2>
 
           <div id="demo" class="carousel slide" data-ride="carousel">
 
@@ -97,7 +183,7 @@
               <div class="carousel-item">
                 <img src="images/bagel.png" alt="bagel" width="1100" height="500">
               </div>
-              
+
 
               <div class="carousel-item">
                 <img src="images/burger.png" alt="burger" width="1100" height="500">
@@ -133,127 +219,138 @@
         </div>
       </div>
     </div>
-    
+
+
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="transition-three">
+          <!-- <img src="images/chicagonew.jpg" class="transition-image"/> -->
+        </div>
+      </div>
+    </div>
+
+
     <!-- MENU -->
     <div class="row" id="menu-section">
-      <div class="col-sm-12">
-        <div id="menu">
-          <h2 class="sections">Menu</h2>
-          <div class="menu-images">
+      <div class="col-md-12">
+        <div id="menu-content">
+          <h2 class="sections menu-title underline">Menu</h2>
 
-          <p><a class="image-popup-no-margins" href="https://drive.google.com/file/d/1MwVEmstDbSOwxAi7GJ6cOd-0JQrc6F76/view?usp=sharing">
-            <img src="images/dinnermenu.png"  width="300" height="400">
-          </a></p>
-
-          <a class="image-popup-fit-width" href="https://drive.google.com/file/d/1BVo0ab2JhbHST4KaMhauI-tsHqFV0ZQ0/view?usp=sharing" title="Lunch menu">
-            <img src="images/lunchmenu.png" width="300" height="400">
-          </a>
-
-          <a class="image-popup-vertical-fit" href="https://drive.google.com/file/d/1xkpqmi73IA1HwFGrLM0VUqPoQFyUeKwP/view?usp=sharing" title="Breakfast menu">
-            <img src="images/breakfastmenu.png" width="300" height="400">
-          </a>
-
-
+          <div class="popup-gallery">
+            <div class="gallery-items">
+              <a class="item" href="images/dinnermenu.png" title="dinner"><img src="images/dinnermenu.png" width="300"
+                  height="400"></a>
+              <a class="item" href="images/lunchmenu.png" title="lunch"><img src="images/lunchmenu.png" width="300"
+                  height="400"></a>
+              <a class="item" href="images/breakfastmenu.png" title="breakfast"><img src="images/breakfastmenu.png"
+                  width="300" height="400"></a>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
-
-
-
-
-
-    
-   
-    
-    
-    <div class="row" id="contact-section">
-        <div id="contact">
-            <h2 class="sections" class="contact-header">Contact Us</h2>
-            <hr class="contact-underline">
-
-    <form id="contact-form" method="post" action="contact.php" role="form">
-
-      <div class="messages"></div>
-  
-      <div class="controls"> 
-  
-          <div class="row">
-              <div class="col-md-12">
-                  
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d380513.7159859942!2d-88.01214778988322!3d41.83339250495681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3cd0f4cbed%3A0xafe0a6ad09c0c000!2sChicago%2C%20IL!5e0!3m2!1sen!2sus!4v1580590601426!5m2!1sen!2sus" width="100%" height="auto" frameborder="0" style="padding-bottom: 30px;" allowfullscreen=""></iframe>
-                  <div class="form-group">
-                      <label for="form_name">Firstname *</label>
-                      <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
-                      <div class="help-block with-errors"></div>
-                  </div>
-              
-              
-                  <div class="form-group">
-                      <label for="form_lastname">Lastname *</label>
-                      <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
-                      <div class="help-block with-errors"></div>
-                  </div>
-             
-         
-             
-                  <div class="form-group">
-                      <label for="form_email">Email *</label>
-                      <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
-                      <div class="help-block with-errors"></div>
-                  </div>
-              
-    
-        
-          
-             
-                  <div class="form-group">
-                      <label for="form_message">Message *</label>
-                      <textarea id="form_message" name="message" class="form-control" placeholder="Message for us *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
-                      <div class="help-block with-errors"></div>
-                  </div>
-                  <input type="submit" class="btn btn-success btn-send" value="Send message">
-              
-          
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="transition-four">
+          <!-- <img src="images/chicago.jpg" class="transition-image"/>  -->
         </div>
       </div>
-  </div>
-
-  </form>
-  
-</div>
-</div>
+    </div>
 
 
 
+    <div class="row" id="contact-section">
+      <div id="contact-content">
+        <h2 class="sections" class="contact-header">Contact Us</h2>
+        <hr class="contact-underline">
+
+        <form id="contact-form" method="post" action="contact.php" role="form">
+
+          <!-- <div class="messages">
+
+         </div>
+           -->
+          <div class="controls">
+
+            <div class="row">
+              <div class="col-md-12">
+
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d380513.7159859942!2d-88.01214778988322!3d41.83339250495681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3cd0f4cbed%3A0xafe0a6ad09c0c000!2sChicago%2C%20IL!5e0!3m2!1sen!2sus!4v1580590601426!5m2!1sen!2sus"
+                  width="100%" height="auto" frameborder="0" style="padding-bottom: 30px;" allowfullscreen=""></iframe>
+                <div class="form-group">
+                  <label for="form_name">Firstname *</label>
+                  <input id="form_name" type="text" name="name" class="form-control"
+                    placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                  <div class="help-block with-errors"></div>
+                </div>
 
 
+                <div class="form-group">
+                  <label for="form_lastname">Lastname *</label>
+                  <input id="form_lastname" type="text" name="surname" class="form-control"
+                    placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                  <div class="help-block with-errors"></div>
+                </div>
+                <div class="form-group">
+                  <label for="form_email">Email *</label>
+                  <input id="form_email" type="email" name="email" class="form-control"
+                    placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                  <div class="help-block with-errors"></div>
+                </div>
+                <div class="form-group">
+                  <label for="form_message">Message *</label>
+                  <textarea id="form_message" name="message" class="form-control" placeholder="Message for us *"
+                    rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                  <div class="help-block with-errors"></div>
+                </div>
+                <input type="submit" class="btn btn-success btn-send" value="Send message">
 
+              </div>
+            </div>
+          </div>
 
+        </form>
 
-
-
-
-
-
-
-
-
-
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="transition-five">
+          <!-- <img src="images/chicago.jpg" class="transition-image"/>  -->
+        </div>
+      </div>
+    </div>
     <!-- FOOTER SECTION -->
     <div class="row" id="footer-section">
       <div class="col-sm-12">
-        <div id="footer">
-        <h2 class="sections">Footer</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+        <div id="footer-content">
+          <h4 class="sections" class="footer-title">Callum's Delicatessan</h4>
+          <p class="footer-text" style="text-align:center;">
+            1091 Cecil Street<br />
+            Chicago, Illinois 60605<br />
+            Phone: 312-218-9195<br />
+            E-mail press@callumdeli.com for media queries.
+          </p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+            <a href="https://twitter.com/" class="fa fa-twitter"></a>
+            <a href="https://facebook.com/" class="fa fa-facebook"></a>
+          </div>
+          <div>
+            <p style="text-align:center; padding-top: 125px;">
+              &copy; 2020 - All rights reserved.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-    </div>
-
   </div> <!-- END OF CONTAINER  -->
-<script src="jquery-3.1.1.min.js"></script>
-<script src="jquery.paroller.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"
+    integrity="sha256-wk7QMTzYE7BJvko9BsywPzRmKzhCtIQKTuN6/B9sRmw=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"
+    integrity="sha256-P93G0oq6PBPWTP1IR8Mz/0jHHUpaWL0aBJTKauisG7Q=" crossorigin="anonymous"></script>
 </body>
+
 </html>

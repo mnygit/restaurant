@@ -1,103 +1,343 @@
+/*  BODY  */
 
-/*  BODY  */   
 
 * {
     margin: 0;
-    padding: 0;
+    padding: 0; 
     box-sizing: border-box;
-    font-family:'Muli', sans-serif;    
+    font-family: 'Muli', sans-serif;
+    font-size: 20px;
+    
+  
 }
+
+
 
 p {
     font-size: 20px;
-    text-align: justify;  
+    text-align: justify;
 }
 
+/*
 .sections {
     margin-bottom: 50px;
+    border-bottom: 2px solid;
+    border-bottom-color: #ffffff;
+    display: inline-block;
+    /*line-height: -2px; */
+   /* padding-bottom: 10px;
+    
+   
+    
 }
 
-#about, #menu, #gallery, #contact, #footer {
+*/
+.underline {
+    margin-bottom: 50px;
+    border-bottom: 2px solid;
+    border-bottom-color: #ffffff;
+    display: inline-block;
+    /*line-height: -2px; */
+    padding-bottom: 10px;
+
+}
+
+
+
+
+.menu-title {
+    border-bottom: 2px solid;
+    border-bottom-color: #ffffff;
+
+
+}
+
+#about-content,
+#menu-content,
+#gallery-content,
+#contact-content {
     text-align: center;
     height: 700px;
     padding-top: 100px;
 }
 
 
+
+
 /*   HEADER SECTION   */
-header {
-    padding-top: 30px;
-    /*height: 20px; */
+.top-header {
+    background-color: #2c786c;
+    color:  #ffffff;
+    padding: 10px;
+    margin: 0 auto;
+    
+   
 }
 
-      ul, a {
-        float: right;
-        text-decoration: none;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        font-family: 'Fredoka One', cursive;     
+
+.information-container {
+    width: 1170px;
+    margin: 0 auto;
+    
+}
+
+
+.information-container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+.store-hours {
+    float: left;
+    padding-top: 15px;
+    /*padding-left: 12px; */
+    /*padding-left: -2px; */
+    padding-bottom: 5px;
+    
+
+}
+ 
+.hours {
+    font-size: 16px;
+}
+
+.clock, .phone {
+    padding-right: 2px;
+}
+
+.social-top {
+    float: right;
+
+}
+
+
+/*
+.container-margin {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+*/
+
+ 
+
+/*
+<ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Our Story</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Gallery</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Menu</a>
+                      </li>
+
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Contact</a>
+                      </li>
+
+
+                  </ul>
+
+*/
+
+
+
+ul,
+a {
+    float: right;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Fredoka One', cursive;
+
+}
+
+li {
+    display: inline-block;
+    padding: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: #2c786c;
+}
+
+a:link {
+    text-decoration: none;
+    color: #2c786c;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #2c786c;
+}
+
+a:hover {
+    color: white !important;
+
+    /*border-bottom: 10px solid #f8b400; */
+    /*padding: 10px 20px; */
+
+}
+
+a:active {
+    text-decoration: none;
+    color: #2c786c;
+}
+
+
+#company {
+    float: left;
+    font-family: 'Fredoka One', cursive;
+    color: #2c786c;
+    margin-right: 5px;
+    letter-spacing: 2px;
+    padding-top: 50px;
+
+
+}
+
+nav {
+    padding-top: 20px;
+
+}
+
+
+
+
+#logo {
+    width: 45px;
+    height: 45px;
+    
+
+}
+
+
+
+  .transition-one {
+      background-image: url("images/chicago.png");
+      min-height: 500px;
+     /* max-width: 100%; */
+      background-repeat: no-repeat;
+      margin-left: -15px;
+      margin-right: -15px;
+
+      position: relative;
+      opacity: 0.70;
+      background-position: center;
+      background-attachment: fixed;
+      
+
+  }
+
+
+  
+
+  .transition-two {
+    background-image: url("images/pizza.png");
+    min-height: 500px;
+    /* max-width: 100%; */
+    background-repeat: no-repeat;
+    margin-left: -15px;
+    margin-right: -15px;
+
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+  
+.transition-three {
+    background-image: url("images/tables.png");
+    min-height: 500px;
+   /* max-width: 100%; */
+    background-repeat: no-repeat;
+    margin-left: -15px;
+    margin-right: -15px;
+
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-attachment: fixed;
+    
+
+}
+
+.transition-four {
+  background-image: url("images/hello.jpg");
+  min-height: 550px;
+  /* max-width: 100%; */
+  background-repeat: no-repeat;
+  margin-left: -15px;
+  margin-right: -15px;
+
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-attachment: fixed;
+
+}
+
+
+.transition-five {
+    background-image: url("images/chicagonew.png");
+    min-height: 500px;
+    /* max-width: 100%; */
+    background-repeat: no-repeat;
+    margin-left: -15px;
+    margin-right: -15px;
+  
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-attachment: fixed;
+  
+  }
+
+
+
+/*
+
+divs or images for parallax effect {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover:
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     
     }
     
-    li {
-        display: inline-block;
-        padding: 10px;
-        text-transform: uppercase;
-        text-decoration:none; 
+    
+    /* fixed = parallax
+      scroll = normal  change to scroll on mobile devices (media query)  
+
+      center text on hero image   { 
+    position: absolute;
+            top: 50%;
+            width: 100%;
+      text-align: center;
+      letter-spacing: 8px;
     
     }
     
     
-    a {
-        text-decoration: none;
-        color:  #2c786c;    
-    }
+    */
     
-    a:link {
-    text-decoration: none; 
-    color:  #2c786c;  
-    }
-    
-    a:visited{
-        text-decoration:none; 
-        color:  #2c786c;
-    }
-    
-    a:hover { 
-        color:  white !important;
-        
-        /*border-bottom: 10px solid #f8b400; */
-        /*padding: 10px 20px; */
-             
-    }
-    
-    a:active {
-        text-decoration:none; 
-        color:  #2c786c;
-    }
-    
-    
-    #company {
-        float: left;
-        font-family: 'Fredoka One', cursive;
-        color: #2c786c;
-        margin-right: 5px;
-        letter-spacing: 2px;
-        
-    
-    }
-    
-    #logo {
-        width: 45px;
-        height: 45px;  
-    
-    }
-    
-    nav {
-        padding-top: 20px;
-        
-    }
     
 
 /*   HERO IMAGE SECTION   */
@@ -107,6 +347,10 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /*padding: 10px; */
+    /*margin: 0 auto; */
+    margin-left: -15px;
+    margin-right: -15px;
 
 }
 
@@ -116,15 +360,15 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     text-transform: uppercase;
-    font-family: 'Fredoka One', cursive; 
+    font-family: 'Fredoka One', cursive;
     color: white;
     font-weight: 800;
     text-align: center;
     /*padding-top: 300px; */
-    text-shadow: 3px 3px 6px  #004445;
+    text-shadow: 3px 3px 6px #004445;
     letter-spacing: 3px;
 
-  }
+}
 
 #yum {
     font-family: 'Lemon', cursive;
@@ -135,88 +379,77 @@ header {
 
 /*   ABOUT SECTION   */
 .about-image {
-    padding-top: 100px;
-    width: 100%;
-    height: auto;
-   
+    /*padding-top: 100px; */
+    /* width: 100%;
+    height: auto; */
+    width: 325px;
+    height: 500px;
+    float:right; 
+    margin-left: 50px;
+
 }
+
 
 #about-section {
-    background-color: #faf5e4;  
+    background-color: #faf5e4;
+    height: 775px;
 
 }
+
+@media screen and (max-width: 768px) {
+    #about-section {
+      height: 1600px;
+    }
+  }
 
 .about-paragraph {
-    margin: 30px;
-    line-height: 1.5;
+   margin: 50px;
+   line-height: 2.0;  
+  
 }
+
+@media screen and (max-width: 700px) {
+    .about-paragraph {
+      font-size: 14px;
+    }
+  }
+
+#owner-name {
+    font-size: 35px;
+    color: #2c786c;
+    font-weight: 800;
+    font-family: 'Fredoka One', cursive;
+    letter-spacing: 2px;
+}
+
 
 
 /*   GALLERY SECTION   */
 #gallery-section {
-    background-color: #2c786c; 	
+    background-color: #2c786c;
+    height: 800px;
 }
 
 
 /*   MENU SECTION   */
 
-.menu-images {
+
+.gallery-items {
     margin: 0 auto;
-}
-
-.image-popup-no-margins, .image-popup-fit-width, .image-popup-vertical-fit {
-    padding: 20px;
-}
-
-
-/* padding-bottom and top for image */
-.mfp-no-margins img.mfp-img {
-	padding: 0;
-}
-/* position of shadow behind the image */
-.mfp-no-margins .mfp-figure:after {
-	top: 0;
-	bottom: 0;
-}
-/* padding for main container */
-.mfp-no-margins .mfp-container {
-	padding: 0;
+    display: inline-block;
+    padding-top: 50px;
 }
 
 
-/* 
-
-for zoom animation 
-uncomment this part if you haven't added this code anywhere else
-
-*/
-/*
-
-.mfp-with-zoom .mfp-container,
-.mfp-with-zoom.mfp-bg {
-	opacity: 0;
-	-webkit-backface-visibility: hidden;
-	-webkit-transition: all 0.3s ease-out; 
-	-moz-transition: all 0.3s ease-out; 
-	-o-transition: all 0.3s ease-out; 
-	transition: all 0.3s ease-out;
+.item {
+    padding-right: 20px;
 }
 
-.mfp-with-zoom.mfp-ready .mfp-container {
-		opacity: 1;
+#menu-section {
+    height: 850px;
+    background-color: #faf5e4;
+    opacity: 0.9;
 }
-.mfp-with-zoom.mfp-ready.mfp-bg {
-		opacity: 0.8;
-}
-
-.mfp-with-zoom.mfp-removing .mfp-container, 
-.mfp-with-zoom.mfp-removing.mfp-bg {
-	opacity: 0;
-}
-*/
-
-
-
 
 
 
@@ -224,97 +457,137 @@ uncomment this part if you haven't added this code anywhere else
 
 /*   CONTACT SECTION   */
 #contact-section {
-    height: 1075px;
+    height: 1200px;
     padding-top: 100px;
-    background-color: #f8b400;	
-  
-  
-  }
+    background-image: url("images/chicagoroad.png");
+    background-repeat: no-repeat;
+    opacity: 0.9; 
+    
 
-#contact {
+
+}
+
+#contact-content {
     margin: 0 auto;
     width: 50%;
-    height: 900px;
-    background-color: white; 
+    /*height: 900px; */
+    height: 950px;
+    background-color: white;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 40px;
-    
-  
-  }
-  
-  #contact-form {
-      text-align: left;
-      font-size: 18px;
-      background-color:white;
-     
-  }
-  
-  .contact-header {
-      padding-top: 50px;
-  
-  }
-  
-  
-  hr, .contact-underline {
-      border-top: solid 2px #696969;
-      padding-bottom: 20px;
-  }
-  
-  label {
-      margin-left: 20px;
-  }
-  
-  
-  .btn, .btn-success, .btn-send {
-      background-color: #2c786c !important;
-      margin: 0 auto;
-  }
-  
-  
 
 
-/*   FOOTER SECTION   */
-#footer-section {
-    background-color: #004445;  
+}
+
+#contact-form {
+    text-align: left;
+    font-size: 18px;
+    background-color: white;
+
+}
+
+.contact-header {
+    padding-top: 50px;
+
+}
+
+
+hr,
+.contact-underline {
+    border-top: solid 2px #696969;
+    padding-bottom: 20px;
+}
+
+label {
+    margin-left: 20px;
+}
+
+
+.btn,
+.btn-success,
+.btn-send {
+    background-color: #2c786c !important;
+    margin: 0 auto;
 }
 
 
 
 
+/*   FOOTER SECTION   */
+#footer-section {
+    background-color:#004445 ;
+    color: #ffffff;
+    height: 500px;
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    /*margin: 5px 2px; */
+    margin: 8px 8px;
+    
+
+}
+
+.fa:hover {
+    /*opacity: 0.7; */
+    text-decoration: none;
+    background-color: #f8b400;	
+}
 
 
+.fa-instagram {
+    background: #ffffff;
+    text-decoration: none;
+
+}
+
+.fa-twitter {
+    background: #ffffff;
+    text-decoration: none;
+
+}
 
 
+.fa-facebook {
+    background: #ffffff;
+    text-decoration: none;
+
+}
+
+.footer-social {
+    position: absolute;
+    left: 50%;
+    /* margin-left: -85px; */
+    margin-left: -100px;
+    display: inline-block;
+    padding-top: 20px;
+  
+}
+
+#footer-content {
+    padding-top: 60px;
+    
+}
 
 
+/*
 
+p { text-decoration: underline; }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.under-below { 
+  -webkit-text-underline-position: under;
+  -ms-text-underline-position: below;
+  text-underline-position: under; 
+}
+*/
